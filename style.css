@@ -84,3 +84,50 @@ nav button:hover{
     color:#000 ;  
     border-color: #dedede;
 }
+
+nav button i{
+    font-size: 20px;
+}
+.hero{
+    margin-top: 80px;
+    height: calc(100vh -80px);
+    padding:0 60px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.hero img{
+    max-width: 520px;
+    width: 44%;
+    border-radius: 26px;
+}
+
+.hero .left-section{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.hero .left-section .top h2{
+    font-size: 44px;
+    margin-bottom: 24px;
+}
+
+.hero .left-section .top p{
+    color: #606060;
+    font-size: 18px;
+    margin-bottom: 24px;
+    text-align: justify;
+}
+
+.hero .left-section .top .buttons{
+    display: flex;
+    gap: 8px;
+}
+
+.hero .left-section .top .buttons button{
+    font-size: 16px;
+    border: none;
+}
